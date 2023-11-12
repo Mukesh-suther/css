@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.nav-link{
+pointer-events: none;
+}
+.nav-link.active{
+color: #fff !important;
+}
+.da-page-header h1 {
+font-family: "Playfair Display" !important;
+}
+.da-form-label {
+font-family: "Rubik" !important;
+}
+.da-field-container-datatype-text .dafieldpart input,
+.da-field-container-datatype-integer .dafieldpart input,
+.da-field-container-datatype-email .dafieldpart input,
+.da-field-container-datatype-date .dafieldpart input,
+.da-field-container-datatype-number .dafieldpart input,
+.da-field-container-datatype-csv .dafieldpart input
+{
+color: #000000 !important;
+border-radius: 0px !important;
+font-family: "Rubik" !important;
+border-width: 1.5px !important;
+border-color: #bdbec1 !important;
+}
+.da-field-container-inputtype-area .dafieldpart textarea {
+color: #000000 !important;
+border-radius: 0px !important;
+font-family: "Rubik" !important;
+border-width: 1.5px !important;
+border-color: #bdbec1 !important;
+}
+input.labelauty + label.btn-light{
+border-radius: 0px !important;
+border-color: #d9e3f0 !important;
+font-family: "Rubik" !important;
+background-color: #fafafa !important;
+}
+input.labelauty + label.btn-primary{
+border-radius: 0px !important;
+border-color: #d9e3f0 !important;
+font-family: "Rubik" !important;
+background-color: #000000 !important;
+}
+input.labelauty + label.btn-light:hover, input.labelauty + label.btn-primary:hover{
+background-color: #fafafa !important;
+}
+.labelauty-checked-image{
+box-shadow: 0 0 0 3px #fff, 0 0 0 5px #000000 !important;
+background-color: #000000 !important;
+}
+.labelauty-checked{
+color: #ffffff !important;
+}
+.labelauty-unchecked{
+color: #000000 !important;
+}
+.da-field-checkboxes span.labelauty-checked-image{
+background-color: #ffffff !important;
+box-shadow: #ffffff 0px 0px 0px 1px !important;
+box-shadow: #000000 0px 0px 0px 1px !important;
+background-color: #000000 !important;
+}
+.da-field-checkboxes span.labelauty-unchecked-image {
+background-color: #ffffff !important;
+box-shadow: #ffffff 0px 0px 0px 1px !important;
+}
+span.da-has-error {
+font-family: "Roboto" !important;
+}
+.combobox-container input{
+border-bottom-left-radius: 0px !important;
+border-color: #d9e3f0 !important;
+border-top-left-radius: 0px !important;
+border-width: 0px !important;
+color: #ffffff !important;
+font-family: "Rubik" !important;
+border-radius-key: 0px !important;
+}
+.dropdown-menu{
+background-color: #ffffff !important;
+}
+.dacomboboxtoggle{
+border-color: #ffffff !important;
+color: #ffffff !important;
+border-top-right-radius: 0px !important;
+border-bottom-right-radius: 0px !important;
+background-color: #000000 !important;
+}
+.dacomboboxtoggle:hover{
+background-color: #000000 !important;
+color: #ffffff !important;
+}
+.dropdown-item{
+color: #000000 !important;
+background-color: #ffffff !important;
+}
+.dropdown-item:hover, .dropdown-item.active{
+background-color: #000000 !important;
+}
+.form-select {
+color: #000000 !important;
+border-radius: 0px !important;
+font-family: "Rubik" !important;
+border-width: 1.5px !important;
+border-color: #bdbec1 !important;
+}
+button.daquestionbackbutton.btn-light{
+border-color:transparent !important;
+}
+button.daquestionbackbutton {
+font-family: "Roboto" !important;
+}
+.btn.btn-da.btn-primary, .btn.btn-primary:disabled, .btn.btn-primary.disabled, .btn-secondary.disabled, .btn-secondary:disabled {
+color: #ffffff !important;
+background-color: #000000 !important;
+font-family: "Rubik" !important;
+border-radius: 0px !important;
+}
+.btn.btn-da.btn-secondary, p .btn-secondary.btn-sm {
+border-width : 0px !important;
+}
+.btn.btn-da.btn-secondary:hover, p .btn-secondary.btn-sm:hover {
+border-color : #094a81 !important;
+}
+.btn-warning {
+border-color: transparent !important;
+border-radius: 0px !important;
+font-family: "Rubik" !important;
+background-color: #000000 !important;
+color: #ffffff !important;
+}
+.btn.btn-da.btn-primary:hover{
+color: #ffffff !important;
+background-color: #000000 !important;
+}
+.select2-container--default .select2-selection--single, .select2-container--default .select2-search--dropdown .select2-search__field {
+color: #000000 !important;
+border-radius: 0px !important;
+font-family: "Rubik" !important;
+border-width: 1.5px !important;
+border-color: #bdbec1 !important;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field  {
+outline-color : #bdbec1 !important;
+outline-style :  undefined !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__placeholder{
+font-family: "Rubik" !important;
+}
+.select2-results__option{
+font-family: "Rubik" !important;
+}
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable
+{
+background-color: #ffffff !important;
+}
+.select2-container--default .select2-results__option--selectable.select2-results__option--highlighted{
+background-color: #000000 !important;
+color: #ffffff !important;
+}
+.text-info{
+color : #0050a6 !important;
+}
+.text-info:hover{
+color : #1678b2 !important;
+}
+.table-responsive + p a.btn-success, .btn.dacollectadd {
+border-radius : 0px !important;
+}
+.table-responsive + p a.btn-success:hover, .btn.dacollectadd:hover{
+color: #ffffff !important;
+background-color: #000000 !important;
+}
+table.table.table-striped tr td a.btn.btn-darevisit.btn-danger:hover, button.btn.dacollectremoveexisting:hover, button.btn.dacollectremove:hover{
+background-color : rgb(197 59 0 / 100%) !important;
+color : #fff !important;
+border-color : rgb(197 59 0 / 100%) !important;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+font-family: "Playfair Display" !important;
+}
+.table.table-striped thead th{
+font-family: "Rubik" !important;
+}
+.table > :not(caption) > * > *{
+box-shadow: none !important;
+}
+.btn-info{
+background-color : #000000 !important;
+border-color : #000000 !important;
+color : #ffffff !important;
+font-family: "Rubik" !important;
+border-radius : 0px !important;
+}
+.btn-info:hover{
+background-color : #000000 !important;
+border-color : #000000 !important;
+color : #ffffff !important;
+}
+.btn-secondary:focus, .btn-secondary.focus,     .btn.btn-da.btn-primary:focus, .btn-primary:focus{
+box-shadow: none !important;
+}
